@@ -8,7 +8,7 @@ workflows:
       - node/test
       - gh/release:
           notes-file: changelog.md
-          tag: 1.1.0
+          tag: 1.1.1
           title: "Add Feature: Blinking text"
           requires:
             - node/test
