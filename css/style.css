@@ -1,0 +1,16 @@
+@charset "UTF-8";
+h1{
+  background-color:darkgray;    
+}
+table,th,tr,td{
+  border:thin #808080 solid;
+}
+table{
+  border-collapse:collapse;
+}
+th{
+  background-color: lightgray;
+}
+tr{
+  text-align:center;
+}

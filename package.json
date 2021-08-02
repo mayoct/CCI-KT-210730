@@ -1,0 +1,30 @@
+{
+  "name": "cci-kt-210730",
+  "version": "1.0.0",
+  "description": "Automate your releases with CircleCI and the GitHub CLI orb",
+  "main": "app.js",
+  "scripts": {
+    "test": "npx eslint . --ext .js --format junit --output-file ./reports/eslint/eslint.xml"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mayoct/CCI-KT-210730.git"
+  },
+  "author": "Masahiko Funaki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mayoct/CCI-KT-210730/issues"
+  },
+  "homepage": "https://github.com/mayoct/CCI-KT-210730#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nyc": "^15.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0"
+  }
+}
