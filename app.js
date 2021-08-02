@@ -97,9 +97,9 @@ function load_items() {
     } else {
         text = "lint\nunit test\ne2e test\n";
     }
-    
+
     if (text.length > 0) {
-        items = text.slice(0, -1).split(/\n/);        
+        items = text.slice(0, -1).split(/\n/);
     }
 
     return items;

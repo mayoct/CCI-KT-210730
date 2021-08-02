@@ -4,7 +4,7 @@
   "description": "Automate your releases with CircleCI and the GitHub CLI orb",
   "main": "app.js",
   "scripts": {
-    "test": "npx eslint . --ext .js --format junit --output-file ./reports/eslint/eslint.xml"
+    "test": "eslint . --ext .js --format junit --output-file ./reports/eslint/eslint.xml"
   },
   "repository": {
     "type": "git",
@@ -22,9 +22,6 @@
   },
   "devDependencies": {
     "eslint": "^7.32.0",
-    "eslint-config-standard": "^16.0.3",
-    "eslint-plugin-import": "^2.23.4",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^5.1.0"
+    "eslint-config-google": "^0.14.0"
   }
 }
