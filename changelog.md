@@ -1,4 +1,5 @@
-2021/08/02
-# テキスト表示を変更
+2021/08/03
+# VSCodeのRemote-Containerに対応
 ## WHAT'S NEW
-テキスト表示の際に点滅するようにしました。
+VSCodeのRemote-Containerに対応しました。
+GitHub Codespacecsで作業可能です。
